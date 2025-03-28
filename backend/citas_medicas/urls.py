@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('citas.urls')),  # ← this includes everything from citas/urls.py
+    path('', include('citas.urls')),  # ✅ This pulls everything from citas/urls.py
 ]
